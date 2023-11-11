@@ -35,7 +35,7 @@ export default function Header({ isOpen, setIsOpen }: HeaderProps) {
                         </Link>
                     </div>
                     <div className="flex flex-row items-center space-x-4">
-                        <button onClick={() => setIsOpen(!isOpen)} className="flex flex-row items-center rounded-md">
+                        <button onClick={() => setIsOpen(!isOpen)} className="flex flex-row items-center rounded-md" id="menu-button" aria-label="Menu">
                             <svg className="w-6 h-6 text-gray-100 dark:text-gray-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 {isOpen ? <>
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -68,13 +68,13 @@ export default function Header({ isOpen, setIsOpen }: HeaderProps) {
                         </a>
                         {currentLanguage === 'tr' ? <>
                             <div className="flex flex-row items-center space-x-4">
-                                <button onClick={() => handlerChangeLanguage('tr')} className="flex flex-row items-center rounded-md">
+                                <button onClick={() => handlerChangeLanguage('tr')} className="flex flex-row items-center rounded-md" id="menu-button" aria-label="Menu">
                                     <Image src="https://cdn.countryflags.com/thumbs/turkey/flag-400.png" width="32" height="32" alt='Türkçe' />
                                 </button>
                             </div>
                         </> : <>
                             <div className="flex flex-row items-center space-x-4">
-                                <button onClick={() => handlerChangeLanguage('en')} className="flex flex-row items-center rounded-md">
+                                <button onClick={() => handlerChangeLanguage('en')} className="flex flex-row items-center rounded-md" id="menu-button" aria-label="Menu">
                                     <Image src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" width="32" height="32" alt='English' />
                                 </button>
                             </div>

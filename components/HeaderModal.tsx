@@ -17,7 +17,7 @@ export default function HeaderModal({isOpen, setIsOpen}: HeaderModalProps) {
                                     <h3 className="text-2xl font-medium leading-6 text-gray-900" id="modal-title">
                                         Avrasya
                                     </h3>
-                                    <button type="button" className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" data-dismiss="modal" aria-label="Close" onClick={() => setIsOpen(false)}>
+                                    <button type="button" className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" data-dismiss="modal" aria-label="Close" onClick={() => setIsOpen(false)} id="close-button">
                                         <span className="sr-only">Close</span>
                                         <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke="currentColor" aria-hidden="true">

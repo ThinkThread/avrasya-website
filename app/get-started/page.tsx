@@ -1,6 +1,6 @@
 "use client";
 import ReactCodeMirror from "@uiw/react-codemirror";
-import { FaGithub, FaNpm } from "react-icons/fa";
+import { FaNpm } from "react-icons/fa";
 import { javascript } from '@codemirror/lang-javascript';
 import { json } from '@codemirror/lang-json';
 import Link from "next/link";

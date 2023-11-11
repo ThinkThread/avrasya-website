@@ -8,9 +8,9 @@ export default function Home() {
           <h1 className="xl:text-6xl text-5xl text-left text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-blue-500">
             The
           </h1>
-          <h1 className="xl:text-6xl text-5xl text-left text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
+          <h2 className="xl:text-6xl text-5xl text-left text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
             Simple
-          </h1>
+          </h2>
           <h2 className="xl:text-6xl text-5xl text-left text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-orange-500">
             Node.js
           </h2>
